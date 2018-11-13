@@ -1,7 +1,86 @@
-@media screen and (max-width: 1199px)
+@media screen and (max-width: 1280px)
+	.gallery
+		&__control
+			padding-left: 50px
+			padding-right: 50px
+			.slick-prev
+				left: 10px
+			.slick-next
+				right: 10px
+
+@media screen and (max-width: 1220px)
 	.case
 		width: 950px
 	
+	.header
+		&__content
+			padding-top: 65px
+		&__form
+			margin-top: 50px
+
+	.form
+		&__body
+			margin-left: -10px
+			margin-right: -10px
+		.input
+			width: calc(20% - 20px)
+			margin-left: 10px
+			margin-right: 10px
+
+		&__text
+			&:nth-of-type(1), &:nth-of-type(2)
+				width: 240px
+
+	.desc
+		padding-bottom: 65px
+		&__list
+			margin-left: -10px
+			margin-right: -10px
+		&__item
+			width: calc(25% - 20px)
+			margin-left: 10px
+			margin-right: 10px
+
+	.types
+		&__item
+			height: 210px
+			&-img
+				height: 210px
+			&-title
+				font-size: 22px
+				line-height: 28px
+			&-text
+				padding-top: 58px
+				max-width: 245px
+			&-price
+				font-size: 28px
+
+
+	.advantages
+		min-height: 1000px
+		background-position: center bottom
+		&__title
+			margin-bottom: 30px
+		&__img
+			display: none
+		&__list
+			margin-left: auto
+			margin-right: auto
+			width: 100%
+			margin-bottom: 45px
+			> ul
+				> li
+					padding-left: 15px !important
+			
+	.contacts
+		&__form
+			max-width: 920px
+		&__wrap
+			max-width: 460px
+
+	.location
+		&__wrap
+			max-width: 415px
 	.hidden-lg
 		display: block
 	
@@ -14,6 +93,265 @@
 	.case
 		width: 750px
 
+	.header
+		min-height: 1px
+		padding-bottom: 40px
+		background-size: auto 120% 
+		&__title
+			font-size: 20px
+
+		&__price
+			font-size: 30px
+			margin-top: 15px
+			margin-bottom: 12px
+
+		&__desc
+			font-size: 19px
+
+		&__content
+			padding-top: 25px
+		
+		&__form
+			margin-top: 30px
+
+	.form
+		padding: 25px 23px
+		.input
+			width: 100%
+			margin-left: 0
+			margin-right: 0
+			margin-bottom: 20px
+			&:last-of-type
+				margin-bottom: 0
+
+		&__title
+			font-size: 18px
+			
+		&__desc
+			line-height: 18px
+			margin-bottom: 25px
+
+		&__body
+			margin-left: 0
+			margin-right: 0
+			
+			
+		&__text
+			display: none
+			
+		&__btn
+			margin-left: auto
+			margin-right: auto
+
+		&__foot
+			padding-top: 30px
+			
+	.title, .subtitle
+		font-size: 20px
+		&:after
+			width: 14px
+			height: 2px
+			margin-left: 15px
+			
+		
+	.desc
+		padding-top: 30px
+		padding-bottom: 15px
+		&__title
+			margin-bottom: 30px
+		&__item
+			width: calc(50% - 20px)
+			margin-bottom: 20px
+			padding: 25px
+		&__subtitle
+			font-size: 18px
+			margin-top: 20px
+			margin-bottom: 12px
+
+
+	.types
+		padding-top: 35px
+		padding-bottom: 35px
+		min-height: 1px
+		background-position: center top
+		&__title
+			margin-bottom: 25px
+		&__desc
+			font-size: 14px
+			line-height: normal
+			margin-bottom: 30px
+		&__list
+			margin-bottom: 30px
+		&__item
+			height: 140px
+			&-text
+				padding-top: 35px
+				max-width: 200px
+				margin-right: 15px
+			&-title
+				font-size: 16px
+				line-height: 20px
+			&-price
+				font-size: 16px
+			&-img
+				height: 140px
+
+		&__subtitle
+			font-size: 18px
+			margin-bottom: 20px
+
+		&__data
+			li
+				margin-bottom: 14px
+				&:last-of-type
+					margin-bottom: 0
+
+		&__col
+			margin-bottom: 35px
+			
+			
+	.gallery
+		padding-top: 30px
+		padding-bottom: 35px
+		&__title
+			margin-bottom: 25px
+		&__desc
+			font-size: 14px
+			line-height: normal
+			margin-bottom: 35px
+
+		&__list
+			&-item
+				iframe
+					height: 340px !important
+			&-img
+				height: 340px
+			
+		&__control
+			margin-bottom: 35px
+
+	.advantages
+		background-position: center top
+		padding-top: 30px
+		padding-bottom: 30px
+		background-size: auto 130%
+		min-height: 1px
+		&__title
+			margin-bottom: 25px
+		&__list
+			padding-top: 0
+			margin-bottom: 30px
+
+	.location
+		margin-top: 0
+		&__map, &__case
+			width: 100%
+			min-height: 1px
+
+		&__map
+			height: 360px
+			background-position:  center -50px
+			background-size: cover
+
+		&__wrap
+			margin-left: auto
+			margin-right: auto
+			max-width: 750px
+			padding-left: 15px
+			padding-right: 15px
+			padding-top: 35px
+		&__title
+			margin-bottom: 30px
+		&__text
+			font-size: 14px
+			line-height: normal
+			margin-bottom: 25px
+			p
+				margin-bottom: 15px
+				&:last-of-type
+					margin-bottom: 0
+
+		&__data
+			li
+				font-size: 14px
+				padding-left: 20px
+				&:before
+					top: 2px
+
+		&__btn
+			display: none
+			
+
+	.booking
+		padding-top: 0
+		padding-bottom: 45px
+		&__title
+			margin-bottom: 20px
+		&__data
+			margin-left: -10px
+			margin-right: -10px
+			margin-bottom: 35px
+			&-item
+				width: calc(33.333% - 20px)
+				margin-left: 10px
+				margin-right: 10px
+			&-text
+				font-size: 16px
+
+	.contacts
+		padding-bottom: 30px
+		&__case, &__map
+			width: 100%
+			min-height: 1px
+
+
+		&__map
+			height: 360px
+			background-position: center -200px
+			background-size: cover
+			
+
+		&__wrap
+			max-width: 750px
+			margin-left: auto
+			margin-right: auto
+			padding-left: 15px
+			padding-right: 15px
+			padding-bottom: 30px
+		
+		&__form
+			max-width: 720px
+			margin-left: auto
+			margin-right: auto
+			position: relative
+			bottom: 0
+			left: 0
+			transform: none
+			margin-top: 25px
+		&__name
+			font-size: 20px
+			margin-bottom: 20px
+		&__address
+			margin-bottom: 20px
+		&__messagers
+			margin-right: 15px
+
+		&__phone
+			font-size: 20px
+
+		&__email
+			margin-top: 20px
+
+	.callback
+		z-index: 100
+		width: 65px
+		height: 65px
+		font-size: 10px
+		line-height: 11px
+
+	.popup
+		&__title
+			font-size: 22px
 	.hidden-md
 		display: block		
 	
@@ -25,11 +363,197 @@
 @media screen and (max-width: 767px)
 	.case
 		width: 100%
+	
+	.panel
+		&__messagers
+			display: none
+		&__phone
+			font-size: 14px
+			margin-left: 0
 
+	.logo
+		&__img
+			width: 23px
+			margin-right: 9px
+		&__text
+			font-size: 10px
+			line-height: 12px
+			max-width: 85px
+
+	.form
+		padding: 22px 20px
+		
+	.desc
+		padding-bottom: 5px
+		&__item
+			width: 100%
+
+
+	.types
+		background-size: auto 120%
+		&__row, &__list
+			margin-left: 0
+			margin-right: 0
+		
+		&__col, &__item
+			width: 100%
+			margin-left: 0
+			margin-right: 0
+
+		&__item
+			&:nth-of-type(1)
+				margin-bottom: 25px
+			&-title
+				font-size: 12px
+				line-height: 19px
+				max-width: 135px
+				margin-left: auto
+			
+		&__subtitle
+			font-size: 16px
+
+		&__data
+			li
+				position: relative
+				padding-left: 45px
+				margin-bottom: 25px
+				&:last-of-type
+					margin-bottom: 0
+			u
+				position: absolute
+				top: 50%
+				left: 0
+				margin-right: 25px
+				transform: translateY(-50%)
+	
+		&__btn
+			margin-top: -10px
+			
+	.gallery
+		padding-bottom: 30px
+		&__desc
+			margin-bottom: 30px
+		&__list
+			display: none
+			.slick-slide
+				padding-left: 0
+				padding-right: 0
+		&__btn
+			height: auto
+			padding: 8px 10px
+			line-height: 18px
+		&__control
+			padding-left: 40px
+			padding-right: 40px
+			margin-left: -15px
+			margin-right: -15px
+			margin-bottom: 25px
+
+	.advantages
+		&__list
+			> ul
+				> li
+					min-height: 1px
+					padding-left: 15px !important
+					padding-right: 15px !important
+					li
+						width: 100%
+						&:before
+							display: none
+
+	.booking
+		padding-bottom: 30px
+		&__data
+			margin-bottom: 15px
+			&-item
+				width: 100%
+				margin-bottom: 20px
+				padding: 18px 25px
+
+			&-icon
+				margin-bottom: 14px
+			
+		&__steps
+			&-item
+				width: 100%
+				margin-bottom: 50px
+				&:after
+					display: none
+
+		&__btn
+			margin-top: -20px
+
+	.reviews
+		min-height: 1px
+		padding-top: 35px
+		padding-bottom: 30px
+		background-size: auto 150%
+		&__title
+			margin-bottom: 30px
+		&__list
+			padding-left: 15px
+			padding-right: 15px
+			margin-bottom: 30px
+			.slick-slide
+				padding-left: 0
+				padding-right: 0
+		&__item
+			width: 100% !important
+			box-shadow: none
+			padding: 15px 17px
+			&-img
+				width: 36px
+				height: 36px
+				margin-right: 15px
+			&-title
+				font-size: 12px
+			&-city
+				font-size: 10px
+
+			&-text
+				font-size: 12px
+				line-height: normal
+				height: auto
+				margin-top: 10px
+
+		&__btns
+			display: none
+			
+
+	.contacts
+		&__form
+			margin-left: 15px
+			margin-right: 15px
+			margin-top: 5px
+
+		&__map
+			background-position: center -30px
+			
+
+	.footer
+		padding-top: 20px
+		padding-bottom: 20px
+		.case
+			flex-direction: column
+			justify-content: center
+			align-items: center
+					
+		&__dev
+			text-align: center
+			font-size: 14px
+			margin-right: auto
+			margin-top: 15px
+			
+			
 	.hidden-sm
 		display: block
 	
 	.hidden-xs
 		display: none
+
+	.btn
+		&_yellow
+			&:before, &:after
+				display: none
 	
 

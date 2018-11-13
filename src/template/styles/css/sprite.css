@@ -1,0 +1,71 @@
+.icon-arrow-down-black {
+  background-image: url(../../img/sprite.png);
+  background-position: -36px -29px;
+  width: 9px;
+  height: 5px; }
+
+.icon-arrow-left {
+  background-image: url(../../img/sprite.png);
+  background-position: -51px -12px;
+  width: 7px;
+  height: 11px; }
+
+.icon-arrow-right {
+  background-image: url(../../img/sprite.png);
+  background-position: -51px -23px;
+  width: 7px;
+  height: 11px; }
+
+.icon-dots {
+  background-image: url(../../img/sprite.png);
+  background-position: -10px -36px;
+  width: 21px;
+  height: 5px; }
+
+.icon-people-yellow {
+  background-image: url(../../img/sprite.png);
+  background-position: -36px 0px;
+  width: 15px;
+  height: 15px; }
+
+.icon-person-yellow {
+  background-image: url(../../img/sprite.png);
+  background-position: 0px -36px;
+  width: 10px;
+  height: 13px; }
+
+.icon-phone-blue {
+  background-image: url(../../img/sprite.png);
+  background-position: 0px 0px;
+  width: 18px;
+  height: 18px; }
+
+.icon-phone-white {
+  background-image: url(../../img/sprite.png);
+  background-position: -18px -18px;
+  width: 18px;
+  height: 18px; }
+
+.icon-phone-yellow {
+  background-image: url(../../img/sprite.png);
+  background-position: -36px -15px;
+  width: 14px;
+  height: 14px; }
+
+.icon-placeholder {
+  background-image: url(../../img/sprite.png);
+  background-position: -51px 0px;
+  width: 8px;
+  height: 12px; }
+
+.icon-whatsapp-green {
+  background-image: url(../../img/sprite.png);
+  background-position: 0px -18px;
+  width: 18px;
+  height: 18px; }
+
+.icon-whatsapp-white {
+  background-image: url(../../img/sprite.png);
+  background-position: -18px 0px;
+  width: 18px;
+  height: 18px; }

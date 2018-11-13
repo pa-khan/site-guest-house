@@ -1,6 +1,71 @@
-@media screen and (max-width: 1199px) {
+@media screen and (max-width: 1280px) {
+  .gallery__control {
+    padding-left: 50px;
+    padding-right: 50px; }
+    .gallery__control .slick-prev {
+      left: 10px; }
+    .gallery__control .slick-next {
+      right: 10px; } }
+
+@media screen and (max-width: 1220px) {
   .case {
     width: 950px; }
+  .header__content {
+    padding-top: 65px; }
+  .header__form {
+    margin-top: 50px; }
+  .form__body {
+    margin-left: -10px;
+    margin-right: -10px; }
+  .form .input {
+    width: -webkit-calc(20% - 20px);
+    width: calc(20% - 20px);
+    margin-left: 10px;
+    margin-right: 10px; }
+  .form__text:nth-of-type(1), .form__text:nth-of-type(2) {
+    width: 240px; }
+  .desc {
+    padding-bottom: 65px; }
+    .desc__list {
+      margin-left: -10px;
+      margin-right: -10px; }
+    .desc__item {
+      width: -webkit-calc(25% - 20px);
+      width: calc(25% - 20px);
+      margin-left: 10px;
+      margin-right: 10px; }
+  .types__item {
+    height: 210px; }
+    .types__item-img {
+      height: 210px; }
+    .types__item-title {
+      font-size: 22px;
+      line-height: 28px; }
+    .types__item-text {
+      padding-top: 58px;
+      max-width: 245px; }
+    .types__item-price {
+      font-size: 28px; }
+  .advantages {
+    min-height: 1000px;
+    background-position: center bottom; }
+    .advantages__title {
+      margin-bottom: 30px; }
+    .advantages__img {
+      display: none; }
+    .advantages__list {
+      margin-left: auto;
+      margin-right: auto;
+      width: 100%;
+      margin-bottom: 45px; }
+      .advantages__list > ul > li {
+        padding-left: 15px !important; }
+  .contacts__form {
+    max-width: 920px; }
+  .contacts__wrap {
+    max-width: 460px; }
+  .location__wrap {
+    max-width: 415px; }
   .hidden-lg {
     display: block; }
   .hidden-md {
@@ -9,6 +74,222 @@
 @media screen and (max-width: 992px) {
   .case {
     width: 750px; }
+  .header {
+    min-height: 1px;
+    padding-bottom: 40px;
+    background-size: auto 120%; }
+    .header__title {
+      font-size: 20px; }
+    .header__price {
+      font-size: 30px;
+      margin-top: 15px;
+      margin-bottom: 12px; }
+    .header__desc {
+      font-size: 19px; }
+    .header__content {
+      padding-top: 25px; }
+    .header__form {
+      margin-top: 30px; }
+  .form {
+    padding: 25px 23px; }
+    .form .input {
+      width: 100%;
+      margin-left: 0;
+      margin-right: 0;
+      margin-bottom: 20px; }
+      .form .input:last-of-type {
+        margin-bottom: 0; }
+    .form__title {
+      font-size: 18px; }
+    .form__desc {
+      line-height: 18px;
+      margin-bottom: 25px; }
+    .form__body {
+      margin-left: 0;
+      margin-right: 0; }
+    .form__text {
+      display: none; }
+    .form__btn {
+      margin-left: auto;
+      margin-right: auto; }
+    .form__foot {
+      padding-top: 30px; }
+  .title, .subtitle {
+    font-size: 20px; }
+    .title:after, .subtitle:after {
+      width: 14px;
+      height: 2px;
+      margin-left: 15px; }
+  .desc {
+    padding-top: 30px;
+    padding-bottom: 15px; }
+    .desc__title {
+      margin-bottom: 30px; }
+    .desc__item {
+      width: -webkit-calc(50% - 20px);
+      width: calc(50% - 20px);
+      margin-bottom: 20px;
+      padding: 25px; }
+    .desc__subtitle {
+      font-size: 18px;
+      margin-top: 20px;
+      margin-bottom: 12px; }
+  .types {
+    padding-top: 35px;
+    padding-bottom: 35px;
+    min-height: 1px;
+    background-position: center top; }
+    .types__title {
+      margin-bottom: 25px; }
+    .types__desc {
+      font-size: 14px;
+      line-height: normal;
+      margin-bottom: 30px; }
+    .types__list {
+      margin-bottom: 30px; }
+    .types__item {
+      height: 140px; }
+      .types__item-text {
+        padding-top: 35px;
+        max-width: 200px;
+        margin-right: 15px; }
+      .types__item-title {
+        font-size: 16px;
+        line-height: 20px; }
+      .types__item-price {
+        font-size: 16px; }
+      .types__item-img {
+        height: 140px; }
+    .types__subtitle {
+      font-size: 18px;
+      margin-bottom: 20px; }
+    .types__data li {
+      margin-bottom: 14px; }
+      .types__data li:last-of-type {
+        margin-bottom: 0; }
+    .types__col {
+      margin-bottom: 35px; }
+  .gallery {
+    padding-top: 30px;
+    padding-bottom: 35px; }
+    .gallery__title {
+      margin-bottom: 25px; }
+    .gallery__desc {
+      font-size: 14px;
+      line-height: normal;
+      margin-bottom: 35px; }
+    .gallery__list-item iframe {
+      height: 340px !important; }
+    .gallery__list-img {
+      height: 340px; }
+    .gallery__control {
+      margin-bottom: 35px; }
+  .advantages {
+    background-position: center top;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-size: auto 130%;
+    min-height: 1px; }
+    .advantages__title {
+      margin-bottom: 25px; }
+    .advantages__list {
+      padding-top: 0;
+      margin-bottom: 30px; }
+  .location {
+    margin-top: 0; }
+    .location__map, .location__case {
+      width: 100%;
+      min-height: 1px; }
+    .location__map {
+      height: 360px;
+      background-position: center -50px;
+      background-size: cover; }
+    .location__wrap {
+      margin-left: auto;
+      margin-right: auto;
+      max-width: 750px;
+      padding-left: 15px;
+      padding-right: 15px;
+      padding-top: 35px; }
+    .location__title {
+      margin-bottom: 30px; }
+    .location__text {
+      font-size: 14px;
+      line-height: normal;
+      margin-bottom: 25px; }
+      .location__text p {
+        margin-bottom: 15px; }
+        .location__text p:last-of-type {
+          margin-bottom: 0; }
+    .location__data li {
+      font-size: 14px;
+      padding-left: 20px; }
+      .location__data li:before {
+        top: 2px; }
+    .location__btn {
+      display: none; }
+  .booking {
+    padding-top: 0;
+    padding-bottom: 45px; }
+    .booking__title {
+      margin-bottom: 20px; }
+    .booking__data {
+      margin-left: -10px;
+      margin-right: -10px;
+      margin-bottom: 35px; }
+      .booking__data-item {
+        width: -webkit-calc(33.333% - 20px);
+        width: calc(33.333% - 20px);
+        margin-left: 10px;
+        margin-right: 10px; }
+      .booking__data-text {
+        font-size: 16px; }
+  .contacts {
+    padding-bottom: 30px; }
+    .contacts__case, .contacts__map {
+      width: 100%;
+      min-height: 1px; }
+    .contacts__map {
+      height: 360px;
+      background-position: center -200px;
+      background-size: cover; }
+    .contacts__wrap {
+      max-width: 750px;
+      margin-left: auto;
+      margin-right: auto;
+      padding-left: 15px;
+      padding-right: 15px;
+      padding-bottom: 30px; }
+    .contacts__form {
+      max-width: 720px;
+      margin-left: auto;
+      margin-right: auto;
+      position: relative;
+      bottom: 0;
+      left: 0;
+      -webkit-transform: none;
+          -ms-transform: none;
+              transform: none;
+      margin-top: 25px; }
+    .contacts__name {
+      font-size: 20px;
+      margin-bottom: 20px; }
+    .contacts__address {
+      margin-bottom: 20px; }
+    .contacts__messagers {
+      margin-right: 15px; }
+    .contacts__phone {
+      font-size: 20px; }
+    .contacts__email {
+      margin-top: 20px; }
+  .callback {
+    z-index: 100;
+    width: 65px;
+    height: 65px;
+    font-size: 10px;
+    line-height: 11px; }
+  .popup__title {
+    font-size: 22px; }
   .hidden-md {
     display: block; }
   .hidden-sm {
@@ -17,7 +298,167 @@
 @media screen and (max-width: 767px) {
   .case {
     width: 100%; }
+  .panel__messagers {
+    display: none; }
+  .panel__phone {
+    font-size: 14px;
+    margin-left: 0; }
+  .logo__img {
+    width: 23px;
+    margin-right: 9px; }
+  .logo__text {
+    font-size: 10px;
+    line-height: 12px;
+    max-width: 85px; }
+  .form {
+    padding: 22px 20px; }
+  .desc {
+    padding-bottom: 5px; }
+    .desc__item {
+      width: 100%; }
+  .types {
+    background-size: auto 120%; }
+    .types__row, .types__list {
+      margin-left: 0;
+      margin-right: 0; }
+    .types__col, .types__item {
+      width: 100%;
+      margin-left: 0;
+      margin-right: 0; }
+    .types__item:nth-of-type(1) {
+      margin-bottom: 25px; }
+    .types__item-title {
+      font-size: 12px;
+      line-height: 19px;
+      max-width: 135px;
+      margin-left: auto; }
+    .types__subtitle {
+      font-size: 16px; }
+    .types__data li {
+      position: relative;
+      padding-left: 45px;
+      margin-bottom: 25px; }
+      .types__data li:last-of-type {
+        margin-bottom: 0; }
+    .types__data u {
+      position: absolute;
+      top: 50%;
+      left: 0;
+      margin-right: 25px;
+      -webkit-transform: translateY(-50%);
+          -ms-transform: translateY(-50%);
+              transform: translateY(-50%); }
+    .types__btn {
+      margin-top: -10px; }
+  .gallery {
+    padding-bottom: 30px; }
+    .gallery__desc {
+      margin-bottom: 30px; }
+    .gallery__list {
+      display: none; }
+      .gallery__list .slick-slide {
+        padding-left: 0;
+        padding-right: 0; }
+    .gallery__btn {
+      height: auto;
+      padding: 8px 10px;
+      line-height: 18px; }
+    .gallery__control {
+      padding-left: 40px;
+      padding-right: 40px;
+      margin-left: -15px;
+      margin-right: -15px;
+      margin-bottom: 25px; }
+  .advantages__list > ul > li {
+    min-height: 1px;
+    padding-left: 15px !important;
+    padding-right: 15px !important; }
+    .advantages__list > ul > li li {
+      width: 100%; }
+      .advantages__list > ul > li li:before {
+        display: none; }
+  .booking {
+    padding-bottom: 30px; }
+    .booking__data {
+      margin-bottom: 15px; }
+      .booking__data-item {
+        width: 100%;
+        margin-bottom: 20px;
+        padding: 18px 25px; }
+      .booking__data-icon {
+        margin-bottom: 14px; }
+    .booking__steps-item {
+      width: 100%;
+      margin-bottom: 50px; }
+      .booking__steps-item:after {
+        display: none; }
+    .booking__btn {
+      margin-top: -20px; }
+  .reviews {
+    min-height: 1px;
+    padding-top: 35px;
+    padding-bottom: 30px;
+    background-size: auto 150%; }
+    .reviews__title {
+      margin-bottom: 30px; }
+    .reviews__list {
+      padding-left: 15px;
+      padding-right: 15px;
+      margin-bottom: 30px; }
+      .reviews__list .slick-slide {
+        padding-left: 0;
+        padding-right: 0; }
+    .reviews__item {
+      width: 100% !important;
+      -webkit-box-shadow: none;
+              box-shadow: none;
+      padding: 15px 17px; }
+      .reviews__item-img {
+        width: 36px;
+        height: 36px;
+        margin-right: 15px; }
+      .reviews__item-title {
+        font-size: 12px; }
+      .reviews__item-city {
+        font-size: 10px; }
+      .reviews__item-text {
+        font-size: 12px;
+        line-height: normal;
+        height: auto;
+        margin-top: 10px; }
+    .reviews__btns {
+      display: none; }
+  .contacts__form {
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 5px; }
+  .contacts__map {
+    background-position: center -30px; }
+  .footer {
+    padding-top: 20px;
+    padding-bottom: 20px; }
+    .footer .case {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center; }
+    .footer__dev {
+      text-align: center;
+      font-size: 14px;
+      margin-right: auto;
+      margin-top: 15px; }
   .hidden-sm {
     display: block; }
   .hidden-xs {
+    display: none; }
+  .btn_yellow:before, .btn_yellow:after {
     display: none; } }
